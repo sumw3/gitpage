@@ -1,0 +1,9 @@
+[Unit]
+Description=Gitpage Hook Service
+
+[Service]
+Type=forking
+ExecStart=/bin/bash /root/gitpage/StartHookListener.sh start
+
+[Install]
+WantedBy=multi-user.target
