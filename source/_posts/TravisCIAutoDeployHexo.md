@@ -139,4 +139,4 @@ branches:
 > 引用：[用 Travis CI 自動部署網站到 GitHub](https://zespia.tw/blog/2015/01/21/continuous-deployment-to-github-with-travis/)
 
 
-> 其他 [```.travis.yml```]https://github.com/51offer/51offer.github.com/blob/blog/.travis.yml() 参考 
+> 其他 [`.travis.yml`](https://github.com/51offer/51offer.github.com/blob/blog/.travis.yml) 参考 
