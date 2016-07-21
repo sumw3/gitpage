@@ -4,7 +4,7 @@
 
 # Site
 title: Σ
-subtitle:
+subtitle: "Avoid evil and do good! Seek peace and pursue it!"
 description: "Avoid evil and do good! Seek peace and pursue it!"
 author: sumw3
 language: zh-CN
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: maupassant
+theme: indigo
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
