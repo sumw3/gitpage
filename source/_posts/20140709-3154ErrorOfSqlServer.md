@@ -7,11 +7,11 @@ categories:
   - Problems
 ---
 
-###问题
+### 问题
 
 在**SqlServer2005**的**Management studio**里使用`bak`文件还原数据库的时候总是会发生下面的错误。
 
-![SQL Server restore error](http://images.cnblogs.com/cnblogs_com/adandelion/BACKERROR.GIF)
+![SQL Server restore error](http://ww1.sinaimg.cn/large/68f944b2gw1f6q3o9np43j20jj0hlwi7.jpg)
 
 >Restore failed for Server 'ADANDELI'. (Microsoft.SqlServer.Smo)
 An exception occurred while executing a Transact-SQL statement or batch.  (Microsoft.SqlServer.ConnectionInfo
@@ -20,9 +20,9 @@ RESTORE DATABASE is terminating abnormally. (Microsoft SQL Server，错误: 3154
 
 <!--more-->
 
-###解决方法：
+### 解决方法：
 
-####Step 1
+#### Step 1
 
 查询备份文件中的逻辑文件名称
 
@@ -33,7 +33,7 @@ RESTORE FILELISTONLY
 Go
 ```
 
-####Step 2
+#### Step 2
 
 利用bak恢复数据库，强制还原`(REPLACE)`。
 `STATS = 10`每完成10%显示一条记录。
