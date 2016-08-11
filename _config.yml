@@ -7,8 +7,9 @@ title: Σ
 subtitle: "Avoid evil and do good! Seek peace and pursue it!"
 description: "Avoid evil and do good! Seek peace and pursue it!"
 author: sumw3
-language: zh-CN
+language: zh-Hans
 timezone: Asia/Shanghai
+avatar: http://7jpsga.com1.z0.glb.clouddn.com/logo.jpg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -16,6 +17,11 @@ url: http://sumw3.com
 root: /
 permalink: :year/:month/:id/
 permalink_defaults:
+
+# Search
+search:
+  path: search.xml
+  field: post
 
 # Directory
 source_dir: source
@@ -63,7 +69,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: indigo
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
