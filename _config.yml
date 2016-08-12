@@ -15,7 +15,7 @@ avatar: http://7jpsga.com1.z0.glb.clouddn.com/logo.jpg
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://sumw3.com
 root: /
-permalink: :year/:month/:id/
+permalink: :year/:month/:title/
 permalink_defaults:
 
 # Search
