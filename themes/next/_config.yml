@@ -76,7 +76,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host:
+  host: font.lug.ustc.edu.cn
 
   # Global font settings used on <body> element.
   global:
@@ -107,7 +107,7 @@ font:
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
+    family: PT Mono
 
 
 
