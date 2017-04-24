@@ -18,7 +18,7 @@ categories:
 >Unmanaged service HDD: 5 GB SSD RAM: 512 MB CPU: 1x Intel Xeon BW: 500 GB/mo Link speed: 1 Gigabit VPS technology: OpenVZ/KiwiVM Linux OS: 32-bit and 64-bit Centos, Debian, Ubuntu, Fedora Instant OS reload 1 Dedicated IPv4 address Full root access PPP and VPN support (tun/tap) Instant RDNS update from control panel No contract, anytime cancellation Strictly unmanaged, no support 99% uptime guarantee 30-day money back guarantee
 
 既然有了VPS，那我就可以把hexo的生成和发布都扔到上面去，只要我有新的markdown文件，自动通知VPS让其执行对应的同步、生成和发布即可。
-![脑图](http://pubshare.qiniudn.com/sumw3hexo%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83.png)
+![脑图](https://ws1.sinaimg.cn/large/68f944b2gy1fexr0cdncwj20qa08igmk.jpg)
 
 <!--more-->
 

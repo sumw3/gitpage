@@ -11,7 +11,7 @@ categories:
 
 在**SqlServer2005**的**Management studio**里使用`bak`文件还原数据库的时候总是会发生下面的错误。
 
-![SQL Server restore error](http://ww1.sinaimg.cn/large/68f944b2gw1f6q3o9np43j20jj0hlwi7.jpg)
+![SQL Server restore error](https://ws1.sinaimg.cn/large/68f944b2gy1fexr1huuamj20jj0hlwi7.jpg)
 
 >Restore failed for Server 'ADANDELI'. (Microsoft.SqlServer.Smo)
 An exception occurred while executing a Transact-SQL statement or batch.  (Microsoft.SqlServer.ConnectionInfo
