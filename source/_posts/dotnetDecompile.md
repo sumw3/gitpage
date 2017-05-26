@@ -8,7 +8,7 @@ categories:
   - OpenProjects
 ---
 
-# 背景
+## 背景
 
 本来有个小工具，可以直接连接数据库通过一些简单的条件筛选来查看数据。但是最近由于数据库 IP 地址变更，而那个小工具中数据库 IP 是直接写在代码中，源代码又没有，于是就没法使用了。
 
@@ -16,7 +16,7 @@ categories:
 
 <!-- more -->
 
-# 工具
+## 工具
 
 ### 1. [ILSpy](http://ilspy.net/)
 
@@ -39,7 +39,7 @@ categories:
 >在 Jb EVAIN 实现的强大 Mono.Cecil 帮助下，Reflexil 达到了这个目标。
 >作为一个专门用来处理 IL code 的插件，Reflexil 实现了一个完整的指令编辑器，并允许直接注入 C#/VB.NET 代码。
 
-# 修改方法
+## 修改方法
 
 ### 1. 下载 ILSpy 和 Reflexil
 
@@ -68,7 +68,7 @@ categories:
 修改完成后，在侧边栏选定本次修改的程序后右键菜单，将程序另存为 ```*.Patched.exe``` ，该程序即为修改后的执行程序。
 ![](https://ws1.sinaimg.cn/large/68f944b2ly1ffytkqsoekj20p50ia773.jpg)
 
-# 结束
+## 结束
 通过这两个工具的使用，可以简单修改一些硬编码程序，或者从可执行程序中提取相应资源。使用起来也是很方便简单，非常好用。
 
 > **参考**
